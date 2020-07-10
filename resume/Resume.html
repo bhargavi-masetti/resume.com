@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/html">
+<title>Resume</title>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="bhargavi/w3.css">
+
+<div class="w3-row">
+  <div class="w3-half w3-pale-yellow w3-container w3-center" style="height:700px">
+    <div class="w3-padding-64">
+      <h1>Home</h1>
+    </div>
+    <div class="w3-padding-64">
+      <a href="#" class="w3-button w3-pale-yellow w3-block w3-hover-blue-grey w3-padding-16">About Me</a>
+      <a href="#work" class="w3-button w3-pale-yellow w3-block w3-hover-teal w3-padding-16">Work & Certifications </a>
+      <a href="#work" class="w3-button w3-pale-yellow w3-block w3-hover-dark-grey w3-padding-16">Resume</a>
+      <a href="#contact" class="w3-button w3-pale-yellow w3-block w3-hover-brown w3-padding-16">My Contact</a>
+    </div>
+  </div>
+  <div class="w3-half w3-pale-yellow w3-container" style="height:700px">
+    <div class="w3-padding-64 w3-center">
+      <h1>About Me</h1>
+      <img src="../w3images/avatar4.png" class="w3-margin w3-circle" alt="Person" style="width:50%">
+      <div class="w3-left-align w3-padding-large">
+        <small>
+        <p>Experience in the application development using technologies like Java,
+          Oracle, SQL, Python, Spring-frame work ,Spring-boot , AWS.
+          Skilled in designing the user interfaces using HTML 5, JavaScript, jQuery ,Json.
+          Good Knowledge on Application Servers like Apache Tomcat,
+          Web logic.
+          Extensive familiarity in using Eclipse development tool and
+          IntelliJ IDEA Community Edition 2019.</p>
+        <p>
+          Experience in Software development using Agile development process.
+        </p>
+      </small>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="w3-row">
+  <div class="w3-half w3-pale-yellow w3-center" style="min-height:1000px" id="work">
+     <div class="w3-padding-64">
+      <h2> Work and certifications</h2>
+      <p>I am awesome with my work.</p>
+      <img class="mySlides w3-animate-fading" src="../w3images/img5.jpg" style="width:100%">
+      <img class="mySlides w3-animate-fading" src="../w3images/img1.jpg" style="width:65%">
+
+      <img class="mySlides w3-animate-fading" src="../w3images/img4.jpg" style="width:100%">
+      <img class="mySlides w3-animate-fading" src="../w3images/img2.jpg" style="width:100%">
+    </div>
+  </div>
+  <script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}
+  x[myIndex-1].style.display = "block";
+  setTimeout(carousel, 9000);
+}
+</script>
+
+  <!-- Resume-->
+  <div class="w3-half w3-pale-yellow w3-container" style="min-height:1000px">
+        <div class="w3-padding-64">
+          <h2> <b>Resume </b></h2>
+          <SMALL>
+          <H5> <B>EDUCATION</B> </H5>
+            <H8> Master of Science </H8>
+          <P><B>Major : </B> Information Systems. </P>
+           <p>University of Mary Harden Baylor,Austin, TX.</p>
+          <H8> Bachelor of Technology </H8>
+          <P><B>Major : </B> Computer Science. </p>
+          <p>Jawaharlal Nehru Technological University,Hyderabad, India.</p>
+
+          <h5> <B>EXPERIENCE </B> </h5>
+          <B>Jr JAVA Developer</B>
+          <P>Void main, Hyderabad, IN/ January 2016 - September 2017 </P>
+          <P>•	Involved in application development and application support using Java, Servlet, JSP, and Hibernate Framework and also sql. </P>
+          <P>•	Performed CURD operations using Hibernate with JPA specification on SQL Server database.</P>
+          <P>•	Worked as an active team member in developing Client/Server Applications on
+            various architectural design patterns.</P>
+            <B>Environments:</B>
+          <P>Core Java, Servlet, Hibernate, HTML, CSS, Java Script, JSP, Eclipse, Oracle (RDBMS), Agile Methodology, Linux JAXB</P>
+            <B>Internal QA(quality analysis) </B>
+            <P>Cognizant ,Hyderabad, India/ September 2017 -November-2019</P>
+            <P>•	Collecting the data from SRT and Verification of the user data based on the client requirement.</P>
+            <P> •	Got opportunity to expose to new technologies like webservices and to meet the new people.</P>
+            <p>•	Performed Descriptive Analysis to identify Tableau is been used.</p>
+            <b>Environments:</b>
+            <p>SRT, Tableau, Windows, Ms Office, SQL.</p>
+          </SMALL>
+        </div>
+</div>
+</div>
+    <!-- Third Grid: Swing By & Contact -->
+    <div class="w3-row" id="contact">
+      <div class="w3-half w3-pale-yellow w3-container w3-center" style="height:700px">
+        <div class="w3-padding-64">
+          <h1>Swing By</h1>
+        </div>
+
+        <div class="w3-padding-64">
+          <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-amber"></i>Java Developer</p>
+          <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-amber"></i>Virginia, USA</p>
+          <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-amber"></i>masettibhargu@gmail.com</p>
+          <p><i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-amber"></i>+512-800-5432</p>
+
+        </div>
+      </div>
+      <div class="w3-half w3-pale-yellow w3-container" style="height:700px">
+        <div class="w3-padding-64 w3-padding-large" id ="contact">
+          <h1>Contact</h1>
+          <p class="w3-opacity">GET IN TOUCH</p>
+          <form class="w3-container w3-card w3-padding-32 w3-white"  name="myForm" method ="post" action="mysql.php" onSubmit="alert( 'Thank you ,for your feedback. I will get back to you as soon as possiable.');" target="_blank">
+
+            <div class="w3-section">
+              <label>Name</label>
+              <input class="w3-input" style="width:100%;" type="text" required name="Name">
+            </div>
+            <div class="w3-section">
+              <label>Email</label>
+              <input class="w3-input" style="width:100%;" type="email" required name="Email">
+            </div>
+            <div class="w3-section">
+              <label>Message</label>
+              <input class="w3-input" style="width:100%;" type="text" required name="Message">
+            </div>
+            <button type="submit" class="w3-button w3-teal w3-right">Send</button>
+          </form>
+          <script>
+            function validateForm() {
+             var x = document.forms["myForm"]["Email"].value;
+              if (x == "") {
+              alert("Email must be filled out");
+              return false;
+              else{
+              alert(" Thank you for your feedback. I will get back to you as soon as possible. ");
+              }
+             }
+          </script>
+        </div>
+      </div>
+    </div>
+
+     <footer class="w3-container w3-amber w3-center w3-margin-top">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <p>Find me on social media.</p>
+      <a href="https://www.facebook.com/bharghavi.masetti" class="fa fa-facebook"></a>
+      <a href="https://www.linkedin.com/in/bhargavi-masetti-21694a18b/" class="fa fa-linkedin"></a>
+      <a href="https://www.snapchat.com/add/bharghuu9" class="fa fa-snapchat"></a>
+      <a href="https://www.instagram.com/?hl=en" class="fa fa-instagram"></a>
+      <p>By Bhargavi Masetti </p>
+    </footer>
+
+  </body>
+</html>
